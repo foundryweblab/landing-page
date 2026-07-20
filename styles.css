@@ -203,7 +203,28 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   background: repeating-linear-gradient(90deg, var(--color-accent) 0 18px, transparent 18px 36px);
   opacity:0.9;
 }
+.hero-image-wrap {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
 
+.hero-image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}.about-portrait {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.about-portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* =========================== WRENCH DIVIDER (signature motif) =========================== */
 .wrench-divider{
   display:flex; align-items:center; justify-content:center;
