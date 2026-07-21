@@ -324,11 +324,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .area-col ul{ margin:0; padding-left: 1.1em; color: var(--color-ink-soft); }
 .area-col li{ margin-bottom: 0.35em; }
 .area-note{ font-size:0.9rem; color: var(--color-ink-soft); }
-.service-area-map{
-  border: 6px solid var(--color-accent-dark);
-  border-radius: var(--radius);
-  overflow:hidden;
-  background: var(--color-bg);
+.service-area-map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 12px;
 }
 .service-area-map iframe{ width:100%; height: 340px; border:0; display:block; }
 .map-fallback-note{
@@ -466,4 +466,25 @@ input:focus, select:focus, textarea:focus{ border-color: var(--color-accent-dark
     .mobile-call-button:hover {
         background: #963021;
     }
+}
+.location-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  vertical-align: -3px;
+  fill: currentColor;
+}
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-trust span {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.05);
 }
