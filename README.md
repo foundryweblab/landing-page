@@ -90,3 +90,4 @@ DNS instructions (usually a CNAME record pointing to `YOUR-USERNAME.github.io`).
 - No build step, no dependencies beyond Google Fonts (loaded via `<link>` in `<head>`).
 - All icons are inline SVG — no image files to manage.
 - Mobile menu and form validation are handled in `js/main.js`.
+
